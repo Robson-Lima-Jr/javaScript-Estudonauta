@@ -7,4 +7,4 @@ Curso iniciado em 23/01/2023.
 - [x] **Aula 03:** _Dando os primeiros passos._
 - [x] **Aula 04:** _Criando o seu primeiro Script._ 
 
-[Site do Estudonauta] (https://www.estudonauta.com/)
+[Site do Estudonauta](https://www.estudonauta.com/)
