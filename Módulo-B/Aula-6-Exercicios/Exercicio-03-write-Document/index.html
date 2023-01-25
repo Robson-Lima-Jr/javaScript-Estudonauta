@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 06 - Exercicio 03</title>
+
+    <style>
+        body {
+            background-color: rgb(255, 187, 0);
+        }
+        
+        #par{
+            background-color: white;
+        }
+    </style>
+
 </head>
+
 <body>
-    
+
+    <h1>Aula 06</h1>
+
+    <h2>Exercicio 03</h2>
+
+    <p id="par">O usuario deve digitar um nome, depois no documento aparecerão as configurações do mesmo, como quantidade de letras, todas as letras em maiusculo e todas as letras em minusculo</p>
+
+    <script>
+        let nome = window.prompt("Boa Noite, Digite seu Nome");
+
+        document.write(`Boa noite ${nome}, seu nome tem ${nome.length} letras</br>`);
+        document.write(`Seu Nome em letras maiusculas é : ${nome.toUpperCase()}</br>`);
+        document.write(`Seu Nome em letras minusculas é : ${nome.toLowerCase()}</br>`);
+    </script>
+
 </body>
+
 </html>
