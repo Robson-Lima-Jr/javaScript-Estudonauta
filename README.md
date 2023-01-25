@@ -10,5 +10,6 @@ Curso iniciado em 23/01/2023.
 
 ## Módulo B - Comandos Básicos do JavaScript
 - [x] **Aula 05:** _Variáveis e tipos primitivos_
+- [x] **Aula 06:** _Tratamento de dados_
 
 [Site do Estudonauta](https://www.estudonauta.com/)
