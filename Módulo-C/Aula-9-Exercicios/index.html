@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09: Introdução ao DOM</title>
+
+    <style>
+        body {
+            background-color: rgb(14, 221, 118);
+            font: normal 15pt monoscape;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 id="cabeçalho">Iniciando Estudos no DOM</h1>
+
+    <p>cabeçalho editado pelo querySelector</p>
+
+    <P>Nesse módulo veremos inicialmente como o <strong>DOM</strong> e o Javascript estão conectados</P>
+
+    <p>No Script, alguns testes da aula</p>
+
+    <div><strong>Abaixo o resultado:</strong></div>
+
+    <P>Com innerHTML:</P>
+
+    <div id="res"></div>
+
+    <script>
+        let p1 = window.document.getElementsByTagName('p')[1];
+        let divTest = window.document.getElementById('res');
+        let h1Config = window.document.querySelector('h1#cabeçalho');
+
+        divTest.innerHTML = p1.innerHTML;
+        //Usando comando innerHTML
+        divTest.style.background = 'black';
+        divTest.style.color = 'white';
+
+        window.document.write("<br>");//pula a linha
+        window.document.write("Usando window.document.write:");
+        window.document.write("<br>");
+        window.document.write(p1.innerHTML);
+
+        h1Config.style.background = 'white';
+
+    </script>
+</body>
+
+</html>
