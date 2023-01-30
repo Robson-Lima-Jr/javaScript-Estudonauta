@@ -16,5 +16,6 @@ Curso iniciado em 23/01/2023.
 
 ## Módulo C - Entendendo o DOM
 - [x] **Aula 09:** _Introdução ao DOM_ (Teórica) + **(Exercicios)**
+- [ ] **Aula 10:** _Eventos DOM_ (Teórica) + **(Exercicios)**
 
 [Site do Estudonauta](https://www.estudonauta.com/)
