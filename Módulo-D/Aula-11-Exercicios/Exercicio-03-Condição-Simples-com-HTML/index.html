@@ -12,13 +12,23 @@
             src: url(/Módulo-C/Aula-10-Exercicios/consolas/Consolas/Consolas.ttf);
         }
         body{
-            background-color: rgb(142, 142, 146);
+            background-color: rgb(207, 207, 218);
             font: normal 12pt consolas;
         }
 
         h1 {
-            color: white;
+            color: rgb(7, 6, 6);
             font: bold 34pt consolas;
+        }
+
+        #res{
+            margin-top: 15px;
+            font: normal 15pt consolas;
+        }
+
+        #btn{
+            background-color: black;
+            color: white;
         }
 
     </style>
@@ -27,8 +37,37 @@
 
     <h1>Sistema de Multas</h1>
 
-    Velocidade do Carro : <input type="number" name="velCar" id="velCar">
+    Velocidade do Carro : <input type="number" name="velCar" id="velCar"> km/h
 
+    <input type="button" value="Consultar Situação" id="btn">
+
+    <div id="res"> --------- </div>
+
+    <script>
+        let click = document.querySelector("input#btn");
+
+        click.addEventListener('click' , btnClick);
+
+        function btnClick() {
+            let velTxt = document.querySelector("input#velCar");
+            let resTela = document.querySelector("div#res");
+
+            let vel = Number(velTxt.value);
+
+            resTela.innerHTML = `<p> Sua velocidade atual é de <strong>${vel} km/h</strong>.`;
+            
+            resTela.style.color = 'blue';
+
+            if(vel > 60) {
+                resTela.innerHTML += `<p> Velocidade acima do permitido (60 km/h)... você está MULTADO(A)`;
+                resTela.style.color = 'red'; 
+            }    
+
+            resTela.innerHTML += `<p> Segurança em primeiro Lugar, use sempre o <strong>Cinto de Segurança</strong>... Faça Boa Viagem`
+            
+        }
+
+    </script>
 
 <body>
     
