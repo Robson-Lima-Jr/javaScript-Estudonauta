@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOm</title>
+
+    <style>
+        @font-face {
+            font-family: consolas;
+            src: url(/javaScript/javaScript-Estudonauta/Módulo-C/Aula-10-Exercicios/consolas/Consolas/Consolas.ttf);
+        }/*Caso queira importar uma Fonte que o seu HTML não tenha, é só usar esse comando*/
+
+        #quadrado {
+            background-color: rgb(190, 180, 180);
+            width: 250px;
+            height: 250px;
+            font: bold 15pt consolas;
+            line-height: 250px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="quadrado" onclick="clicar()" >Interaja...</div> 
+    <!-- Exemplo 01, feito com a function sendo chamada dentro do HTML-->
+
+    <script>
+        let a = window.document.querySelector('div#quadrado');
+
+        a.addEventListener('mouseenter' , entrar);
+        a.addEventListener('mouseout' , sair);
+        a.addEventListener('mousedown' , down);
+       //Exemplo 02, feito com a function sendo chamada pelo Javascript 
+
+        function clicar(){
+            a.innerHTML = 'Clicou';
+            a.style.background = 'red';
+            a.style.color = 'white';
+        }
+
+        function entrar() {
+            a.innerHTML = 'o mouse no quadrado';
+            a.style.background = 'yellow';
+            a.style.color = 'black';
+        }
+
+        function sair() {
+            a.innerHTML = 'o mouse saiu';
+            a.style.background = 'orange';
+            a.style.color = 'black';
+        }
+
+        function down() {
+            a.innerHTML = 'clique pressionado';
+            a.style.background = 'green';
+        }
+
+    </script>
+
+</body>
+
+</html>
