@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+
+    <style>
+        @font-face {
+            font-family: consolas;
+            src: url(/Módulo-C/Aula-10-Exercicios/consolas/Consolas/Consolas.ttf);
+        }
+        body{
+            background-color: rgb(207, 207, 218);
+            font: normal 12pt consolas;
+        }
+
+        h1 {
+            color: rgb(7, 6, 6);
+            font: bold 34pt consolas;
+        }
+
+        #res{
+            margin-top: 15px;
+            font: normal 15pt consolas;
+        }
+
+        #btn{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+
+</head>
+
+    <h1>Sistema de Multas</h1>
+
+    Velocidade do Carro : <input type="number" name="velCar" id="velCar"> km/h
+
+    <input type="button" value="Consultar Situação" id="btn">
+
+    <div id="res"> --------- </div>
+
+    <script>
+        let click = document.querySelector("input#btn");
+
+        click.addEventListener('click' , btnClick);
+
+        function btnClick() {
+            let velTxt = document.querySelector("input#velCar");
+            let resTela = document.querySelector("div#res");
+
+            let vel = Number(velTxt.value);
+
+            resTela.innerHTML = `<p> Sua velocidade atual é de <strong>${vel} km/h</strong>.`;
+            
+            resTela.style.color = 'blue';
+
+            if(vel > 60) {
+                resTela.innerHTML += `<p> Velocidade acima do permitido (60 km/h)... você está MULTADO(A)`;
+                resTela.style.color = 'red'; 
+            }    
+
+            resTela.innerHTML += `<p> Segurança em primeiro Lugar, use sempre o <strong>Cinto de Segurança</strong>... Faça Boa Viagem`
+            
+        }
+
+    </script>
+
+<body>
+    
+</body>
+</html>
