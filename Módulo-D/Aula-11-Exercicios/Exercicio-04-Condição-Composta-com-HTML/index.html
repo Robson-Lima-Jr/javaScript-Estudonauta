@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,16 +12,17 @@
             font-family: monoscapeNew;
             src: url(/fonts/monospace.medium.ttf);
         }
-        body{
+
+        body {
             background-color: rgb(223, 223, 96);
             font-family: monoscapeNew;
         }
 
-        h1{
+        h1 {
             font: bold 22pt monoscapeNew;
         }
 
-        #cssTest{
+        #cssTest {
             font: Bold 12pt monoscapeNew
         }
 
@@ -32,16 +34,44 @@
             margin-top: 25px;
             font: normal 15pt monoscapeNew;
         }
-
     </style>
+
 </head>
+
 <body>
     <h1>Verificador de Nacionalidade</h1>
 
     <strong id="cssTest">Digite sua Nacionalidade:</strong> <input type="text" name="txt" id="txt">
+
     <input type="button" value="Checar Aqui!" id="btn">
 
     <div id="res"> Resultado aparecerá aqui...</div>
 
+    <script>
+        let click = document.querySelector("input#btn");
+
+        click.addEventListener("click", btnClick);
+
+        function btnClick() {
+            let getText = document.querySelector("input#txt");
+            let resultado = document.querySelector("div#res");
+
+            let text = String(getText.value);
+
+            resultado.innerHTML = `<p> <strong>Resultado Abaixo</strong>`;
+            resultado.innerHTML += `<p> -------------------------`;
+
+            if (text === "Brasileiro" || text === "brasileiro") {
+                resultado.innerHTML += `<p> Sua Nacionalidade é: <strong>${text}</strong>`;
+            } else {
+                resultado.innerHTML += `<p> Sua Nacionalidade é: ${text}`;
+                resultado.innerHTML += `<p> Portanto você é estrangeiro`;
+            }
+
+        }
+
+    </script>
+
 </body>
+
 </html>
