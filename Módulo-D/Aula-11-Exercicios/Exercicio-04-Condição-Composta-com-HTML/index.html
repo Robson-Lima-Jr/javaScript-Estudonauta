@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificador de Nacionalidade</title>
+
+    <style>
+        @font-face {
+            font-family: monoscapeNew;
+            src: url(/fonts/monospace.medium.ttf);
+        }
+        body{
+            background-color: rgb(223, 223, 96);
+            font-family: monoscapeNew;
+        }
+
+        h1{
+            font: bold 22pt monoscapeNew;
+        }
+
+        #cssTest{
+            font: Bold 12pt monoscapeNew
+        }
+
+        #txt {
+            font-size: 10pt;
+        }
+
+        #res {
+            margin-top: 25px;
+            font: normal 15pt monoscapeNew;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Verificador de Nacionalidade</h1>
+
+    <strong id="cssTest">Digite sua Nacionalidade:</strong> <input type="text" name="txt" id="txt">
+    <input type="button" value="Checar Aqui!" id="btn">
+
+    <div id="res"> Resultado aparecerá aqui...</div>
+
 </body>
 </html>
