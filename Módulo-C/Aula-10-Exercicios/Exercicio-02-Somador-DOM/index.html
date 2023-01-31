@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Somador de Números</title>
+
+    <style>
+        input {
+            font: normal 15pt verdana;
+            width: 100px;
+        }
+
+        div#res{
+            font: normal 20pt verdana;
+            margin-top: 20px;
+        }
+
+        #btnClick{
+            color: white;
+            background: brown;
+        }
+    </style>
 </head>
 <body>
+    <h1>Somador de Números</h1>
+
+    <h2> Digite 2 números:</h2>
+
+
+    <input type="number" name="num1" id="num1">
+    <input type="number" name="num2" id="num2">
+    <input id="btnClick" type="button" value="somador">
+
+    <div id="res">O Resultado saira aqui!</div>
+
+    <script>
+        let btn = window.document.querySelector('input#btnClick');
+
+        btn.addEventListener('click' , isClicked);
+
+        function isClicked() {
+            let n1 = document.querySelector('input#num1');
+            let n2 = document.querySelector('input#num2');
+            //essas 2 variaveis pegam o valor que for digitado pelo usuari (esse metodo retorna uma String, precisa ser convertido)
+            let text = document.querySelector('div#res');
+            //variavel que controlará o que será exibido na div
+
+            let number1 = Number(n1.value);
+            let number2 = Number(n2.value);
+            //converte os valores que serão digitados pelo usuario em Numbers, explicado acima
+
+            let soma = number1 + number2;
+            //variavel de soma
+
+            text.innerHTML = `A soma de ${number1} e ${number2} é de <strong>${soma}</strong>`;
+            //metodo que exibira o texto com os numeros escolhidos e o resultado da soma de ambos
+
+
+        }
+
+    </script>
     
 </body>
 </html>
