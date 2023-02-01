@@ -1,5 +1,9 @@
-let timer = new Date();
+let time = new Date();
 
-let hora = timer.getHours;
-let minuto = timer.getMinutes;
-let segundos = timer.getSeconds;
+let horas = time.getHours();
+let minutos = time.getMinutes();
+let segundos = time.getSeconds();
+
+console.log(horas);
+console.log(minutos);
+console.log(segundos);
