@@ -24,5 +24,6 @@ Curso iniciado em 23/01/2023.
 ## Módulo D - Condições em JavaScript
 
 - [x] **Aula 11:** _Condições (Parte 01)_ (Teórica) + **(Exercicios)**
+- [x] **Aula 12:** _Condições (Parte 02)_ (Teórica) + **(Exercicios)**
 
 [Site do Estudonauta](https://www.estudonauta.com/)
