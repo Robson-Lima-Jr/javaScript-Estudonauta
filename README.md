@@ -25,5 +25,6 @@ Curso iniciado em 23/01/2023.
 
 - [x] **Aula 11:** _Condições (Parte 01)_ (Teórica) + **(Exercicios)**
 - [x] **Aula 12:** _Condições (Parte 02)_ (Teórica) + **(Exercicios)**
+- [ ] **Exercicios Especiais** _(Parte 01)_
 
 [Site do Estudonauta](https://www.estudonauta.com/)
