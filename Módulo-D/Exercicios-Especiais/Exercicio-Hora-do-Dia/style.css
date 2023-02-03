@@ -1,5 +1,11 @@
+@font-face {
+    font-family: verdanaTest;
+    src: url(/fonts/verdana.ttf);
+}
+
 body{
     background-color: rgb(51, 51, 255);
+    font: normal 15pt verdanaTest;
 }
 
 h1{
@@ -11,6 +17,7 @@ section{
     background-color: white;
     border-radius: 10px;
     width: 500px;
+    padding: 15pt;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
     
