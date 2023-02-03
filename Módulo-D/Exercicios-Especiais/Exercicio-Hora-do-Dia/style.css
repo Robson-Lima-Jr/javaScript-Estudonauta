@@ -23,6 +23,15 @@ section{
     
 }
 
+div {
+    padding: 8pt;
+    text-align: center;
+}
+
+#faixaDia {
+    font: bold 20pt verdanaTest;
+}
+
 footer {
     color: White;
     text-align: center;
