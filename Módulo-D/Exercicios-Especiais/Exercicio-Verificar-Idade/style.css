@@ -1,0 +1,50 @@
+@font-face {
+    font-family: consolasTest;
+    src: url(/Exercicios-Especiais/Exercicio-Verificar-Idade/Consolas.ttf);
+}
+
+body{
+    background-color: rgb(255, 58, 51);
+    font: normal 15pt consolasTest;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    padding: 10pt;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.726);
+    
+}
+
+div {
+    padding: 5pt;
+}
+
+
+footer {
+    color: White;
+    text-align: center;
+    font-style: italic;
+}
+
+#txtNum {
+    width: 70px;    
+    font-size: 15pt;
+}
+
+#btn {
+    background-color: rgb(255, 58, 51);
+    color: white;
+    font: bold 15pt consolasTest
+}
+
+#res {
+    text-align: center;
+}
