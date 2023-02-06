@@ -14,13 +14,13 @@ function timeChange() {
     timeRes.innerHTML = `<strong>Agora são:</strong> ${horas} Horas, ${minutos} minutos e ${segundos} segundos.`;
 
     if (horas >= 0 && horas < 5) {
-        imageLoad.src = "/Módulo-D/Exercicios-Especiais/Exercicio-Hora-do-Dia/imagens/madrugada.png";
+        imageLoad.src = "/Exercicios-Especiais/Exercicio-Hora-do-Dia/imagens/madrugada.png";
 
         document.body.style.background = "#1a3950ff";
 
         faixa.innerHTML = "Boa Madrugada";
     } else if (horas >= 5 && horas < 12) {
-        imageLoad.src = "/Módulo-D/Exercicios-Especiais/Exercicio-Hora-do-Dia/imagens/manhã.png";
+        imageLoad.src = "/Exercicios-Especiais/Exercicio-Hora-do-Dia/imagens/manhã.png";
 
         document.body.style.background = "#f7cd96ff";
         h1.style.color = "black";
@@ -28,11 +28,11 @@ function timeChange() {
 
         faixa.innerHTML = "Bom Dia";
     } else if (horas >= 12 && horas < 18) {
-        imageLoad.src = "/Módulo-D/Exercicios-Especiais/Exercicio-Hora-do-Dia/imagens/tarde.png";
+        imageLoad.src = "/Exercicios-Especiais/Exercicio-Hora-do-Dia/imagens/tarde.png";
 
         faixa.innerHTML = "Boa Tarde";
     } else {
-        imageLoad.src = "/Módulo-D/Exercicios-Especiais/Exercicio-Hora-do-Dia/imagens/noite.png";
+        imageLoad.src = "/Exercicios-Especiais/Exercicio-Hora-do-Dia/imagens/noite.png";
 
         document.body.style.background = "#152d37ff"
 
