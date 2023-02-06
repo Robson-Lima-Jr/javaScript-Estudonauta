@@ -24,8 +24,7 @@ section{
 }
 
 div {
-    padding: 8pt;
-    text-align: center;
+    padding: 5pt;
 }
 
 
@@ -33,4 +32,19 @@ footer {
     color: White;
     text-align: center;
     font-style: italic;
+}
+
+#txtNum {
+    width: 70px;    
+    font-size: 15pt;
+}
+
+#btn {
+    background-color: rgb(255, 58, 51);
+    color: white;
+    font: bold 15pt consolasTest
+}
+
+#res {
+    text-align: center;
 }
