@@ -31,6 +31,7 @@ Curso iniciado em 23/01/2023.
 
 ## Módulo E - Repetições em JavaScript
 
-- [x] **Aula 13:** _Repetições_ (Teórica)
+- [x] **Aula 13:** _Repetições (Parte 01)_ (Teórica)
+- [x] **Aula 14:** _Repetições (Parte 02)_ (Teórica)
 
 [Site do Estudonauta](https://www.estudonauta.com/)
