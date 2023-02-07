@@ -29,5 +29,8 @@ Curso iniciado em 23/01/2023.
 - [x] **Exercicios Especiais** _(Parte 02)_
 - [x] **Exercicios Especiais** _(Parte 03)_
 
+## Módulo E - Repetições em JavaScript
+
+- [x] **Aula 13:** _Repetições_ (Teórica)
 
 [Site do Estudonauta](https://www.estudonauta.com/)
