@@ -33,5 +33,6 @@ Curso iniciado em 23/01/2023.
 
 - [x] **Aula 13:** _Repetições (Parte 01)_ (Teórica)
 - [x] **Aula 14:** _Repetições (Parte 02)_ (Teórica)
+- [x] **Exercicios Especiais** _(Parte 01)_
 
 [Site do Estudonauta](https://www.estudonauta.com/)
