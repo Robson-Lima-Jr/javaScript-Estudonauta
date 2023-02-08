@@ -1,0 +1,33 @@
+@font-face {
+    font-family: consolas;
+    src: url(/fonts/Consolas.ttf);
+}
+
+body {
+    font-family: consolas;
+    background-color: rgb(145, 141, 141);
+}
+
+h1 {
+    text-align: center;
+    font-size: 30pt;
+}
+
+section {
+    background-color: rgb(82, 113, 255);
+    width: 500px;
+    margin: auto;
+    padding: 10pt;
+    border-radius: 15pt;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.685);
+    font-size: 15pt;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+}
+
+#txtNum {
+    width: 60px;
+}
