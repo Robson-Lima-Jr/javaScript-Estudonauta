@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(151, 62, 235);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+}
+
+section{
+    background-color: rgb(241, 234, 193);
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.774);
+}
+
+footer{
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+#btn {
+    background-color: rgb(151, 62, 235);
+    color: rgb(233, 221, 151);
+    border-radius: 5pt;
+    font-size: 15pt;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.74);
+}
