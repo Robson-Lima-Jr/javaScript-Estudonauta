@@ -11,10 +11,22 @@ console.log(base[4]);
 console.log(base[5]);
 console.log(``);
 
-//Parte 02 - Adicionar Valores no Array  e mostrando na tela sem aparecer os colchetes
+//Parte 02 - Adicionar Valores no Array, mostrando na tela sem aparecer os colchetes e ordenando os valores em ordem numerica
 console.log(`------PARTE 02------`);
 base[6] = 100;
 base.push(87);
+base.sort();
 
 console.log(`Os números dentro do Array: ${base}`);
+console.log(``);
+
+//Parte 03 - Mostrar Index de determinado valor
+console.log(`------PARTE 03------`);
+let testIndex = base.indexOf(21);
+
+if(testIndex == -1){
+    console.log(`O Index do número não está disponivel no Array`);
+} else {
+    console.log(`O valor digitado está na posição ${testIndex} (indice), do Array`);
+}
 console.log(``);
