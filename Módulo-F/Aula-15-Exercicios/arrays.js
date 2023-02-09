@@ -30,3 +30,11 @@ if(testIndex == -1){
     console.log(`O valor digitado está na posição ${testIndex} (indice), do Array`);
 }
 console.log(``);
+
+//Parte 04 - Manipulando Arrays com For
+console.log(`------PARTE 04------`);
+
+for (let i = 0; i < base.length; i++) {
+    console.log(`O Número ${base[i]} está no indice ${i}`);
+}
+console.log(``);
