@@ -37,4 +37,8 @@ Curso iniciado em 23/01/2023.
 - [x] **Exercicios Especiais-Repetições** _(Parte 02)_
 - [x] **Exercicios Especiais-Repetições** _(Parte 03)_
 
+## Módulo F - Avançando os Estudos em JavaScript
+
+- [x] **Aula 15:** _Variaveis Compostas_ (Teórica) + **(Exercicios)**
+
 [Site do Estudonauta](https://www.estudonauta.com/)
