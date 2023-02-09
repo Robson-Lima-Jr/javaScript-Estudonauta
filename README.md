@@ -25,14 +25,16 @@ Curso iniciado em 23/01/2023.
 
 - [x] **Aula 11:** _Condições (Parte 01)_ (Teórica) + **(Exercicios)**
 - [x] **Aula 12:** _Condições (Parte 02)_ (Teórica) + **(Exercicios)**
-- [x] **Exercicios Especiais** _(Parte 01)_
-- [x] **Exercicios Especiais** _(Parte 02)_
-- [x] **Exercicios Especiais** _(Parte 03)_
+- [x] **Exercicios Especiais-Condições** _(Parte 01)_
+- [x] **Exercicios Especiais-Condições** _(Parte 02)_
+- [x] **Exercicios Especiais-Condições** _(Parte 03)_
 
 ## Módulo E - Repetições em JavaScript
 
 - [x] **Aula 13:** _Repetições (Parte 01)_ (Teórica)
 - [x] **Aula 14:** _Repetições (Parte 02)_ (Teórica)
-- [x] **Exercicios Especiais** _(Parte 01)_
+- [x] **Exercicios Especiais-Repetições** _(Parte 01)_
+- [x] **Exercicios Especiais-Repetições** _(Parte 02)_
+- [x] **Exercicios Especiais-Repetições** _(Parte 03)_
 
 [Site do Estudonauta](https://www.estudonauta.com/)
