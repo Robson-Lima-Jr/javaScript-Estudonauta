@@ -1,5 +1,5 @@
 //Parte 01 - Mostrar o modo simples de Arrays
-let base = [10,21,35,78,44,3];
+let base = [10, 21, 35, 78, 44, 3];
 
 console.log(`------PARTE 01------`);
 console.log(base);
@@ -24,7 +24,7 @@ console.log(``);
 console.log(`------PARTE 03------`);
 let testIndex = base.indexOf(21);
 
-if(testIndex == -1){
+if (testIndex == -1) {
     console.log(`O Index do número não está disponivel no Array`);
 } else {
     console.log(`O valor digitado está na posição ${testIndex} (indice), do Array`);
@@ -38,3 +38,10 @@ for (let i = 0; i < base.length; i++) {
     console.log(`O Número ${base[i]} está no indice ${i}`);
 }
 console.log(``);
+
+//Parte 05 - Arrays com For/IN
+console.log(`------PARTE 05------`);
+
+for(let pos in base){
+    console.log(`Com o For/In -- O Número ${base[pos]} está no indice ${pos}`);
+}
