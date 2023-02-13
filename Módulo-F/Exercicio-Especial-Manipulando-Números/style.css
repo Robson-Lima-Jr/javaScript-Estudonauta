@@ -13,7 +13,7 @@ section {
     width: 550px;
     margin: auto;
     padding: 10pt;
-    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.459);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.26);
     border-radius: 10pt;
 }
 
@@ -22,7 +22,7 @@ footer {
     text-align: center;
 }
 
-#addNum {
+#numero {
     width: 50px;
 }
 
