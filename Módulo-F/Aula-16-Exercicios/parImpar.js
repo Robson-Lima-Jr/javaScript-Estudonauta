@@ -1,5 +1,5 @@
-function parImpar (number) {
-    if(number % 2 == 0) {
+function parImpar(number) {
+    if (number % 2 == 0) {
         return `O número ${number} é PAR!`;
     } else {
         return `O número ${number} é IMPAR!`;
