@@ -40,5 +40,6 @@ Curso iniciado em 23/01/2023.
 ## Módulo F - Avançando os Estudos em JavaScript
 
 - [x] **Aula 15:** _Variaveis Compostas_ (Teórica) + **(Exercicios)**
+- [x] **Aula 16:** _Funções_ (Teórica) + **(Exercicios)**
 
 [Site do Estudonauta](https://www.estudonauta.com/)
