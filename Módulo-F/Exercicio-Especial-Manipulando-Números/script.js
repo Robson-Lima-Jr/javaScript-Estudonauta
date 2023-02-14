@@ -41,9 +41,29 @@ function addNumero() {
     }
     num.value = "";
     num.focus();
+    res.innerHTML = ``;
 }
 
 function finalizar() {
+    if(valores.length == 0) {
+        window.alert("Sem valores para Finalizar o programa, favor adicione algum(s).")
+    } else {
+        let tot = valores.length;
+        let maior = valores[0];
+        let menor = valores[0];
 
+        for(let i in valores){
+            if (valores[i] > maior){
+                maior = valores[i];
+            } if (valores[i] < menor){
+                menor = valores[i];
+            }
+        }
+
+        res.innerHTML = ``;
+        res.innerHTML += `<P> A quantidade de números digitados foi: ${tot}`;
+        res.innerHTML += `<p> O maior valor digitado foi: ${maior}`;
+        res.innerHTML += `<p> O menor valor digitado foi: ${menor}`;
+    }
 
 }
