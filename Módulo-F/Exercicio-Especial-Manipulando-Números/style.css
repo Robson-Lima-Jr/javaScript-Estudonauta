@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    font-family: 'Courier New';
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    width: 550px;
+    margin: auto;
+    padding: 10pt;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.26);
+    border-radius: 10pt;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#numero {
+    width: 50px;
+}
+
+#btn1 , #btn2 {
+    font: bold 10pt 'Courier New';
+}
+
+#arrayNum {
+    width: 150px;
+}

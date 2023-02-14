@@ -41,5 +41,7 @@ Curso iniciado em 23/01/2023.
 
 - [x] **Aula 15:** _Variaveis Compostas_ (Teórica) + **(Exercicios)**
 - [x] **Aula 16:** _Funções_ (Teórica) + **(Exercicios)**
+- [x] **Exercicio Especial-Arrays/Funções** _(Parte 01)_
+- [x] **Exercicio Especial-Arrays/Funções** _(Parte 02)_
 
 [Site do Estudonauta](https://www.estudonauta.com/)
