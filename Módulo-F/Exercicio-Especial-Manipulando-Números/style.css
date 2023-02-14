@@ -29,3 +29,7 @@ footer {
 #btn1 , #btn2 {
     font: bold 10pt 'Courier New';
 }
+
+#arrayNum {
+    width: 150px;
+}
