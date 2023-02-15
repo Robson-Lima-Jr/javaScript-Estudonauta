@@ -1,6 +1,7 @@
 # Curso JavaScript Estudonauta
 
 Curso iniciado em 23/01/2023.
+Curso Finalizado em 15/02/2023.
 
 ## Módulo A - Conhecendo JavaScript 
 
